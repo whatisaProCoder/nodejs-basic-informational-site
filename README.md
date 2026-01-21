@@ -15,11 +15,13 @@ This is a basic web server that serves static HTML pages. It demonstrates the fu
 ## Files
 
 ### Server Files
+
 - `server.js` - Vanilla Node.js HTTP server implementation (port 8080)
 - `express-server.js` - Express.js server implementation (port 3000)
 - `package.json` - Project dependencies and scripts
 
 ### HTML Pages
+
 - `index.html` - Home page
 - `about.html` - About page
 - `contact-me.html` - Contact page
@@ -28,19 +30,25 @@ This is a basic web server that serves static HTML pages. It demonstrates the fu
 ## How to Run
 
 ### Option 1: Vanilla Node.js Server
+
 ```bash
 node server.js
 ```
+
 Then visit:
+
 - `http://localhost:8080` - Home page
 - `http://localhost:8080/about` - About page
 - `http://localhost:8080/contact-me` - Contact page
 
 ### Option 2: Express.js Server (Recommended)
+
 ```bash
 npm start
 ```
+
 Then visit:
+
 - `http://localhost:3000` - Home page
 - `http://localhost:3000/about` - About page
 - `http://localhost:3000/contact` - Contact page
@@ -50,6 +58,7 @@ The Express server runs with auto-reload enabled using the `--watch` flag.
 ## Installation
 
 Install dependencies before running the Express server:
+
 ```bash
 npm install
 ```
